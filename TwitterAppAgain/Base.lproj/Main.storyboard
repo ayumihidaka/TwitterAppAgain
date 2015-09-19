@@ -74,7 +74,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="タイムライン一覧" id="dhG-4A-AYZ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="O0x-72-pFN"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="O0x-72-pFN">
+                            <connections>
+                                <action selector="tapTweetButton:" destination="IKI-iW-p9t" id="Sg8-oc-94b"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1X-05-EqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
