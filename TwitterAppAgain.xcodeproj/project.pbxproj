@@ -13,6 +13,8 @@
 		805456461BAD3A7300F2400C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805456451BAD3A7300F2400C /* Images.xcassets */; };
 		805456491BAD3A7300F2400C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805456471BAD3A7300F2400C /* LaunchScreen.xib */; };
 		805456551BAD3A7300F2400C /* TwitterAppAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805456541BAD3A7300F2400C /* TwitterAppAgainTests.swift */; };
+		8054565F1BAD475A00F2400C /* TimeLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054565E1BAD475A00F2400C /* TimeLineTableViewController.swift */; };
+		805456611BAD47BC00F2400C /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805456601BAD47BC00F2400C /* TimeLineTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8054564E1BAD3A7300F2400C /* TwitterAppAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterAppAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805456531BAD3A7300F2400C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805456541BAD3A7300F2400C /* TwitterAppAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAppAgainTests.swift; sourceTree = "<group>"; };
+		8054565E1BAD475A00F2400C /* TimeLineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewController.swift; sourceTree = "<group>"; };
+		805456601BAD47BC00F2400C /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				8054563E1BAD3A7300F2400C /* AppDelegate.swift */,
 				805456401BAD3A7300F2400C /* ViewController.swift */,
+				805456601BAD47BC00F2400C /* TimeLineTableViewCell.swift */,
+				8054565E1BAD475A00F2400C /* TimeLineTableViewController.swift */,
 				805456421BAD3A7300F2400C /* Main.storyboard */,
 				805456451BAD3A7300F2400C /* Images.xcassets */,
 				805456471BAD3A7300F2400C /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805456611BAD47BC00F2400C /* TimeLineTableViewCell.swift in Sources */,
 				805456411BAD3A7300F2400C /* ViewController.swift in Sources */,
+				8054565F1BAD475A00F2400C /* TimeLineTableViewController.swift in Sources */,
 				8054563F1BAD3A7300F2400C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
